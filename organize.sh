@@ -4,13 +4,13 @@ map=$(ls -d $HOME/*/)
 
 echo " Hello , Where you want to orgonize ?"
 echo "$map"
-printf "PLS WRITE ADDRESS FOR DIR YOU WANT TO ORGONIZE :"
+printf "PLS WRITE ADDRESS FOR DIR YOU WANT TO ORGANIZE :"
 read target
 
 cd "$target" || { echo "Directory not found "; exit 1; }
 echo ""
 
-echo "WHAT TYPE OF FILES YOU WANT TO ORGONIZE?"
+echo "WHAT TYPE OF FILES YOU WANT TO ORGANIZE?"
 find . -maxdepth 1 -type f | sed -n 's/..*\.//p' | sort | uniq -c | sort -nr
 echo ""
 printf "TYPE FILE EXTENSION : "
