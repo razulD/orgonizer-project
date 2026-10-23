@@ -47,6 +47,7 @@ WHAT TYPE OF FILES YOU WANT TO ORGONIZE?
    15 pdf
     8 png
     3 zip
+    1 apk
 
 TYPE FILE EXTENSION : pdf
 Well and now choose name for new folder PDF_Files
