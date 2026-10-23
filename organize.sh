@@ -25,7 +25,7 @@ for file in *; do
 	mkdir -p "$folder"
 	mv "$file" "$folder/"
 done
-echo "AUto orgonize is done "
+echo "Auto organizing is done "
 }
 
 
